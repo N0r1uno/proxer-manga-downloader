@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Proxer Manga Downloader",
+  "version": "1.0",
+
+  "description": "Adds a download button for mangas on Proxer",
+
+  "icons": {
+    "48": "icons/pmdl.png"
+  },
+  
+   "web_accessible_resources": [
+    "resources/dl.png",
+    "resources/print.png",
+    "resources/pmdli.js"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.proxer.me/read/*"],
+      "js": ["inject.js"]
+    }
+  ]
+} 
