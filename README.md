@@ -11,6 +11,6 @@ If installed, two new icons will appear on the readers bar.\
 (downloading and creating the pdf inside the browser was almost fully working, until cors came and totally annihalated me)
 
 **Printing**
-- staightforward
+- pretty straightforward
 - turns out to be very annoying with modern mangas, which have very unusual page sizes
 - depending on browser and page size, output files can turn out being *incredibly* bloated
